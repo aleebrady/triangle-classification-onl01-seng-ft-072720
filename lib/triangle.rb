@@ -29,7 +29,7 @@ class Triangle
   
   class TriangleError < StandardError # TriangleError class inherits from StandardError class
     def message 
-      "Invalid triangle. Check the lenght of your triangle's sides!"
+      "Triangle Error: The dimensions do not equal a triangle"
     end
   end
 end
